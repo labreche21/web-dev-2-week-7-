@@ -1,0 +1,15 @@
+.magic{
+    transition: transform 4s ease;
+    transform-origin: 30px 30px;
+  }
+  .ferry-wand:hover .magic{
+    transform: rotate(2turn);
+  }
+
+  .cls-1{fill:#ffe269;}
+  .cls-2{fill:#fff;}
+  .cls-3{fill:#fcf0c0;}
+
+  .pupil{
+    animation:move 1s infinite;
+  }

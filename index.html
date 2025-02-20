@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Jam Box Studios</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+ <div class="container">
+    <h1>SVG test </h1>
+    <img src="./images/test.svg" alt="">
+    <svg  width="200" viewbox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <!-- SVG graphic code here -->
+        <rect width="200" height="200" fill="#4dd0e1" rx="8" ry="8" stroke="#818ccf" />
+        <circle r="25" cx="50" cy="50" r="25" fill="#d50000"/>
+
+    </svg>
+    <svg width="60" height="60" viewBox="0 0 60 60">
+        <polygon points="0,20 20,20 30,0 40,20 60,20 40,35 60,60 30,45 0,60 20,35 " fill="#b6e2ff"/>
+      </svg>
+
+      <svg width="140" height="64" viewBox="0 0 140 64">
+        <line x1="4" y1="4" x2="140" y2="60" stroke="#818ccf" stroke-width="4"/>
+      </svg>
+
+      <svg width="300" height="50" viewBox="0 0 300 50">
+        <ellipse cx="150" cy="25" rx="150" ry="25" fill="#F388E8"/>
+      </svg>
+
+      <svg width="60" height="145" viewBox="0 0 60 145" class="ferry-wand">
+        <line x1="30" y1="35" x2="30" y2="145" stroke="#818ccf" stroke-width="4"/>
+        <polygon class="star" points="0,20 20,20 30,0 40,20 60,20 40,35 60,60 30,45 0,60 20,35 " fill="#b6e2ff"/>
+        <g class="magic">
+          <circle class="bubble" cx="4" cy="30" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="30" cy="4" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="56" cy="30" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="30" cy="56" r="4" fill="#ED6E46" />
+        </g>
+      </svg>
+
+      <svg width="300" height="200" viewBox="0 0 300 200">
+        <defs>
+          <rect id="brick" width="200" height="100" fill="#CFBEE1"/>
+          <circle id="ball" r="50" fill="#8CC9BB"/>
+        </defs>
+        <use xlink:href="#brick"/>
+        <use xlink:href="#ball" x="200" y="50"/>
+        <use xlink:href="#brick" x="50" y="100"/>
+        <use xlink:href="#ball" x="50" y="150"/>
+      </svg>
+      <svg width="300" height="100" viewBox="0 0 300 100">
+        <text x="0" y="100" fill="tomato" font-size="2.5rem">HELLO</text>
+      </svg>
+
+      <svg id="smily" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 484" width="487" height="484">
+        <defs>
+          <style>.cls-1{fill:#ffe269;}.cls-2{fill:#fff;}.cls-3{fill:#fcf0c0;}</style>
+        </defs>
+        <g id="face">
+          <circle class="cls-1" cx="241" cy="243" r="234" />
+        </g>
+        <path id="mouth" class="cls-2" d="M100,292H381.79s-18,78-140.9,78S100,292,100,292Z" />
+        <ellipse id="eye-l" class="cls-2" cx="141.5" cy="154" rx="37.5" ry="65" />
+        <ellipse id="eye-r" class="cls-2" cx="342.5" cy="154" rx="37.5" ry="65" />
+        <circle id="pupil-l" cx="137.5" cy="182.5" r="24.5" />
+        <circle id="pupil-r" cx="337.5" cy="182.5" r="24.5" />
+        <path id="eyelash-l" class="cls-3" d="M179,154c-37,2-37,0-75,0,0-35.9,16.79-65,37.5-65S179,118.1,179,154Z" />
+        <path id="eyelash-r" class="cls-3" d="M380,154c-37,2-37,0-75,0,0-35.9,16.79-65,37.5-65S380,118.1,380,154Z" />
+      </svg>
+ </div>
+</body>
+
+</html>
